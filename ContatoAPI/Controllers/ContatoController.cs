@@ -38,7 +38,8 @@ namespace ContatoAPI.Controllers
         }
         [HttpPost]
         [Route(template: "Contatos")]
-        public async Task<IActionResult> PostAsync([FromServices] ContatoDbContext context, [FromBody] CreateContatoViewModel contato)
+        public async Task<IActionResult> PostAsync([FromServices] ContatoDbContext context, [FromBody] 
+        CreateContatoViewModel contato)
         {
             if (!ModelState.IsValid)
                 return BadRequest();

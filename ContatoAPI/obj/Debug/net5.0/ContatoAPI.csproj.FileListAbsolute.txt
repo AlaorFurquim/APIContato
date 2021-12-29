@@ -55,3 +55,4 @@ C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ContatoAPI.dl
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ref\ContatoAPI.dll
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ContatoAPI.pdb
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ContatoAPI.genruntimeconfig.cache
+C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\staticwebassets\ContatoAPI.StaticWebAssets.xml

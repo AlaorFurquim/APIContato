@@ -14,8 +14,9 @@ namespace ContatoAPI.Models
         }
 
         public DbSet<Contato> Contatos { get; set; }
+        public DbSet<Cadastro> Logins { get; set; }
 
-       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             IConfiguration Configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())

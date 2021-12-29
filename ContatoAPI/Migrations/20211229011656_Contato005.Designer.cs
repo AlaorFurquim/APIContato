@@ -3,14 +3,16 @@ using ContatoAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ContatoAPI.Migrations
 {
     [DbContext(typeof(ContatoDbContext))]
-    partial class ContatoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211229011656_Contato005")]
+    partial class Contato005
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
