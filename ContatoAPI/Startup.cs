@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
@@ -36,6 +37,25 @@ namespace ContatoAPI
             });
             services.AddDbContext<ContatoDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("ConDb")));
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = "JwtBearer";
+                options.DefaultChallengeScheme = "JwtBearer";
+            }).AddJwtBearer("JwrBearer", options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.
+                    UTF8.GetBytes("e6213493ee2d7944631803a4f48296e850a56e35")),
+                    ClockSkew = TimeSpan.FromMinutes(5),
+                    ValidIssuer = "ContatoAPI",
+                    ValidAudience = "ContatoApi",
+                };
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

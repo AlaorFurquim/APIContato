@@ -21,7 +21,6 @@ C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Microsoft.Ide
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -56,3 +55,4 @@ C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ref\ContatoAP
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ContatoAPI.pdb
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ContatoAPI.genruntimeconfig.cache
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\staticwebassets\ContatoAPI.StaticWebAssets.xml
+C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
