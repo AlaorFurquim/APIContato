@@ -14,7 +14,7 @@ namespace ContatoAPI.Models
         }
 
         public DbSet<Contato> Contatos { get; set; }
-        public DbSet<Cadastro> Logins { get; set; }
+        public DbSet<User> Logins { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -56,3 +56,4 @@ C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ContatoAPI.pd
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ContatoAPI.genruntimeconfig.cache
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\staticwebassets\ContatoAPI.StaticWebAssets.xml
 C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\alaor\source\repos\ContatoAPI\ContatoAPI\obj\Debug\net5.0\ContatoAPI.csproj.AssemblyReference.cache

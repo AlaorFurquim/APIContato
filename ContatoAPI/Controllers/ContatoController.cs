@@ -1,5 +1,6 @@
 ﻿using ContatoAPI.Models;
 using ContatoAPI.ViewModels;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,6 +14,15 @@ namespace ContatoAPI.Controllers
     [Route(template: "v1")]
     public class ContatoController : ControllerBase
     {
+        private readonly UserManager<User> _userManager;
+        private readonly SignInManager<User> _singInManager;
+
+        public ContatoController(UserManager<User> userManager, SignInManager<User> signInManager)
+        {
+            _userManager = userManager;
+            _singInManager = signInManager;
+        }
+
         [HttpGet]
         [Route(template: "Contatos")]
         public async Task<IActionResult> GetAsync([FromServices] ContatoDbContext context)
